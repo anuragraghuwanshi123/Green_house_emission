@@ -29,7 +29,7 @@ industry_total_emissions = (
 
 if not industry_total_emissions.empty:
     plt.figure(figsize=(12, 6))
-    industry_total_emissions.plot(kind='bar', color='darkorange', edgecolor='black')
+    industry_total_emissions.plot(kind='bar', color='dark_orange', edgecolor='black')
     plt.title("Top 10 Industries with Highest Total Emissions", fontsize=14)
     plt.ylabel("Total Emission Factor (with Margins)")
     plt.xlabel("Industry")
